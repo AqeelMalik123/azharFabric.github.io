@@ -1,0 +1,82 @@
+.navbar{
+    background-color: #D32F2F !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.navbar img{
+    background-color: white !important;
+}
+.fa-shopping-cart{
+    font-size: 30px !important;
+}
+.fa-user-circle-o{
+    font-size: 30px !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 32px !important;
+    margin-right: 10px;
+    color: #D32F2F;
+}
+h3{
+    color: #D32F2F;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+@media screen and(max-width: 600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+.card-text{
+    font-weight: bold;
+}
+.new-Arival{
+    margin-top: 20px;
+}
+.card{
+    width: 200px;
+    height: auto !important;
+    margin-bottom: 10px;
+}
+.btn-primary{
+    width: 100%;
+    background-color:#D32F2F ;
+
+}
+.heading{
+    text-align: center;
+    color: #D32F2F;
+}
+.heading >h1{
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color:#D32F2F;
+}
+.footer {
+    text-align: center;
+    
+}
+.lo li{
+    list-style: none;
+}
